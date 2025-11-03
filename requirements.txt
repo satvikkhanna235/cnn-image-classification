@@ -1,9 +1,8 @@
-# requirements.txt
-tensorflow==2.13.0
-streamlit
-numpy
-pillow
-scikit-learn
-
-
+streamlit==1.31.1
+numpy==1.24.3
+pandas==2.2.2
+tensorflow-cpu==2.13.0
+keras==2.13.1
+Pillow==10.0.1
+protobuf==3.20.3
 
