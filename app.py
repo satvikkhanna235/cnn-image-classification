@@ -1,3 +1,5 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import streamlit as st
 import numpy as np
 import tensorflow as tf
@@ -51,3 +53,4 @@ if uploaded_file is not None:
 
 else:
     st.info("👆 Please upload an image to start classification.")
+
