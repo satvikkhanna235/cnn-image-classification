@@ -1,0 +1,6 @@
+# requirements.txt
+tensorflow>=2.12
+numpy
+matplotlib
+streamlit
+scikit-learn
