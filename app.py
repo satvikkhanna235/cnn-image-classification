@@ -7,6 +7,11 @@ import tensorflow as tf
 from PIL import Image
 
 # ------------------------------------------------------
+# ✅ Set Streamlit page config (must be first Streamlit command)
+# ------------------------------------------------------
+st.set_page_config(page_title="🧠 CNN Image Classifier", layout="centered")
+
+# ------------------------------------------------------
 # Load the trained CNN model
 # ------------------------------------------------------
 @st.cache_resource
@@ -29,7 +34,6 @@ classes = [
 # ------------------------------------------------------
 # Streamlit App UI
 # ------------------------------------------------------
-st.set_page_config(page_title="🧠 CNN Image Classifier", layout="centered")
 st.title("🧠 Image Classification using CNN")
 st.write("Upload an image and let the trained CNN model predict its class (CIFAR-10 dataset).")
 
