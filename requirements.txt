@@ -1,5 +1,5 @@
 # requirements.txt
-tensorflow==2.16.1
+tensorflow-cpu
 streamlit
 numpy
 pillow
