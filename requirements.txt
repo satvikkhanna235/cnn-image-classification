@@ -1,6 +1,8 @@
 # requirements.txt
-tensorflow>=2.12
-numpy
-matplotlib
+tensorflow==2.16.1
 streamlit
+numpy
+pillow
 scikit-learn
+
+
